@@ -37,6 +37,6 @@ function caesarCipher(input, shift) {
   
   // Testa as tuas funções
   let encoded = caesarCipher("Hello, World!", 3);
-  console.log(encoded); // Expected output: "Khoor, Zruog!"
-  console.log(caesarCipherDecode(encoded, 3)); // Expected output: "Hello, World!"
+  console.log(encoded); // Resultado esperado: "Khoor, Zruog!"
+  console.log(caesarCipherDecode(encoded, 3)); // Resultado esperado: "Hello, World!"
   
