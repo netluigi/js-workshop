@@ -14,10 +14,16 @@ console.log(reverseAndReplaceVowels("hello")); // Resultado esperado: "ullih"
 console.log(reverseAndReplaceVowels("javascript")); // Resultado esperado: "tpircsivijo"
 */
 
-function reverseAndReplaceVowels(input) {
+function reverseAndReplaceVowels(n) {
     // Passo 1: Inverte a string de entrada
+     const word = n.slice(' ');
+     console.log(word)
+    //  let newString = word.reverse();
 
     // Passo 2: Substitua todas as vogais na string invertida pela próxima vogal no alfabeto
 
     // Passo 3: Retornar a string modificada
+    return word
 }
+
+console.log(reverseAndReplaceVowels("Hello"))
