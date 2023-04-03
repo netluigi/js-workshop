@@ -86,7 +86,6 @@ const intNumbers = [1, 2, 3, 4, 5 ]
 // Exercício 8: Remover Duplicados
 // Crie uma função que receba um array e remova todos os elementos duplicados e retorne o array sem os duplicados.
 
-
 // function removeDuplicados (arr){
 //    let newArr = [...new Set(arr)];
 //    return newArr
